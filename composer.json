@@ -1,0 +1,20 @@
+{
+    "name": "polaris1011/baidutongji",
+    "description": "百度统计",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "polairs",
+            "email": "6379863@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+	"psr-4": {
+	    "LonginService\\": "src/",
+	    "ReportService\\": "src/"
+	}
+    }
+}
